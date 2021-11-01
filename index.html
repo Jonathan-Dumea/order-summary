@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+  </head>
+
+  <body class="grid">
+    <main class="card">
+      <fiugre class="card__img">
+        <img
+          class="block"
+          src="./images/illustration-hero.svg"
+          alt="person listening to music"
+        />
+      </fiugre>
+      <div class="card__body">
+        <h1 class="title" style="margin-bottom: 0.5em">Order Summary</h1>
+        <p class="text">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="card__plan flex">
+          <div class="card__plan-left flex">
+            <img src="images/icon-music.svg" alt="music icon" />
+            <div class="card__plan-details">
+              <h2 class="title" style="font-size: 1.2em">Annual Plan</h2>
+              <p class="text">$59.99/year</p>
+            </div>
+          </div>
+          <div class="card__plan-right">
+            <a
+              href="#"
+              style="color: var(--clr-primary-bright-blue); font-weight: bold"
+              >Change</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="btn__container flex">
+        <button class="btn-payment" style="color: white">
+          Proceed to Payment
+        </button>
+        <button
+          class="btn-cancel"
+          style="
+            background-color: white !important;
+            color: var(--clr-neutral-desaturated-blue);
+          "
+        >
+          Cancel Order
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
